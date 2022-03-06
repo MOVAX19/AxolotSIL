@@ -1,0 +1,37 @@
+running egg_info
+writing ../../build/gazebo_sim/gazebo_sim.egg-info/PKG-INFO
+writing dependency_links to ../../build/gazebo_sim/gazebo_sim.egg-info/dependency_links.txt
+writing entry points to ../../build/gazebo_sim/gazebo_sim.egg-info/entry_points.txt
+writing requirements to ../../build/gazebo_sim/gazebo_sim.egg-info/requires.txt
+writing top-level names to ../../build/gazebo_sim/gazebo_sim.egg-info/top_level.txt
+reading manifest file '../../build/gazebo_sim/gazebo_sim.egg-info/SOURCES.txt'
+writing manifest file '../../build/gazebo_sim/gazebo_sim.egg-info/SOURCES.txt'
+running build
+running build_py
+copying gazebo_sim/sim_spawner.py -> /home/movax/adr_ws/build/gazebo_sim/build/lib/gazebo_sim
+running install
+running install_lib
+copying /home/movax/adr_ws/build/gazebo_sim/build/lib/gazebo_sim/sim_spawner.py -> /home/movax/adr_ws/install/gazebo_sim/lib/python3.8/site-packages/gazebo_sim
+byte-compiling /home/movax/adr_ws/install/gazebo_sim/lib/python3.8/site-packages/gazebo_sim/sim_spawner.py to sim_spawner.cpython-38.pyc
+running install_data
+creating /home/movax/adr_ws/install/gazebo_sim/share/~
+creating /home/movax/adr_ws/install/gazebo_sim/share/~/adr_ws
+creating /home/movax/adr_ws/install/gazebo_sim/share/~/adr_ws/src
+creating /home/movax/adr_ws/install/gazebo_sim/share/~/adr_ws/src/adf_sil
+creating /home/movax/adr_ws/install/gazebo_sim/share/~/adr_ws/src/adf_sil/launch
+creating /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/worlds
+copying ./worlds/adr_circuit.world -> /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/worlds/
+creating /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/models
+creating /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/models/adr2017_Large_Gate
+copying ./models/adr2017_Large_Gate/model.config -> /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/models/adr2017_Large_Gate/
+copying ./models/adr2017_Large_Gate/model.sdf -> /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/models/adr2017_Large_Gate/
+creating /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/models/adr2017_Medium_Gate
+copying ./models/adr2017_Medium_Gate/model.config -> /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/models/adr2017_Medium_Gate/
+copying ./models/adr2017_Medium_Gate/model.sdf -> /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/models/adr2017_Medium_Gate/
+creating /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/models/adr2017_Small_Gate
+copying ./models/adr2017_Small_Gate/model.config -> /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/models/adr2017_Small_Gate/
+copying ./models/adr2017_Small_Gate/model.sdf -> /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/models/adr2017_Small_Gate/
+creating /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/models/drone_with_camera
+copying ./models/drone_with_camera/model.config -> /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/models/drone_with_camera/
+copying ./models/drone_with_camera/model.sdf -> /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/models/drone_with_camera/
+error: can't copy './models/drone_with_camera/meshes': doesn't exist or not a regular file

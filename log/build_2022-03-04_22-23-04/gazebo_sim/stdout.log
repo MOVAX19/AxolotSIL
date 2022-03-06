@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/gazebo_sim/gazebo_sim.egg-info
+writing ../../build/gazebo_sim/gazebo_sim.egg-info/PKG-INFO
+writing dependency_links to ../../build/gazebo_sim/gazebo_sim.egg-info/dependency_links.txt
+writing entry points to ../../build/gazebo_sim/gazebo_sim.egg-info/entry_points.txt
+writing requirements to ../../build/gazebo_sim/gazebo_sim.egg-info/requires.txt
+writing top-level names to ../../build/gazebo_sim/gazebo_sim.egg-info/top_level.txt
+writing manifest file '../../build/gazebo_sim/gazebo_sim.egg-info/SOURCES.txt'
+reading manifest file '../../build/gazebo_sim/gazebo_sim.egg-info/SOURCES.txt'
+writing manifest file '../../build/gazebo_sim/gazebo_sim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/movax/adr_ws/build/gazebo_sim/build
+creating /home/movax/adr_ws/build/gazebo_sim/build/lib
+creating /home/movax/adr_ws/build/gazebo_sim/build/lib/gazebo_sim
+copying gazebo_sim/__init__.py -> /home/movax/adr_ws/build/gazebo_sim/build/lib/gazebo_sim
+running install
+running install_lib
+creating /home/movax/adr_ws/install/gazebo_sim/lib/python3.8/site-packages/gazebo_sim
+copying /home/movax/adr_ws/build/gazebo_sim/build/lib/gazebo_sim/__init__.py -> /home/movax/adr_ws/install/gazebo_sim/lib/python3.8/site-packages/gazebo_sim
+byte-compiling /home/movax/adr_ws/install/gazebo_sim/lib/python3.8/site-packages/gazebo_sim/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/movax/adr_ws/install/gazebo_sim/share/ament_index
+creating /home/movax/adr_ws/install/gazebo_sim/share/ament_index/resource_index
+creating /home/movax/adr_ws/install/gazebo_sim/share/ament_index/resource_index/packages
+copying resource/gazebo_sim -> /home/movax/adr_ws/install/gazebo_sim/share/ament_index/resource_index/packages
+copying package.xml -> /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim
+running install_egg_info
+Copying ../../build/gazebo_sim/gazebo_sim.egg-info to /home/movax/adr_ws/install/gazebo_sim/lib/python3.8/site-packages/gazebo_sim-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/movax/adr_ws/build/gazebo_sim/install.log'

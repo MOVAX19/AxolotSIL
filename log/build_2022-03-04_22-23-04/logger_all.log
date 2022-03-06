@@ -1,0 +1,287 @@
+[2.477s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.477s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0f69dac3d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0f69dac3d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0f69dac910>)
+[2.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.622s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.622s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.622s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.622s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.623s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.623s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/movax/adr_ws'
+[2.623s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.624s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.624s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.654s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.654s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.654s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.654s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.655s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.655s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.655s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.655s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.655s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.655s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.655s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.655s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.655s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/adf_sil) by extensions ['ignore', 'ignore_ament_install']
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/adf_sil) by extension 'ignore'
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/adf_sil) by extension 'ignore_ament_install'
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/adf_sil) by extensions ['colcon_pkg']
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/adf_sil) by extension 'colcon_pkg'
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/adf_sil) by extensions ['colcon_meta']
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/adf_sil) by extension 'colcon_meta'
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/adf_sil) by extensions ['ros']
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/adf_sil) by extension 'ros'
+[2.710s] DEBUG:colcon.colcon_core.package_identification:Package 'src/adf_sil' with type 'ros.ament_cmake' and name 'adf_sil'
+[2.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/gate_dtctn) by extensions ['ignore', 'ignore_ament_install']
+[2.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/gate_dtctn) by extension 'ignore'
+[2.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/gate_dtctn) by extension 'ignore_ament_install'
+[2.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/gate_dtctn) by extensions ['colcon_pkg']
+[2.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/gate_dtctn) by extension 'colcon_pkg'
+[2.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/gate_dtctn) by extensions ['colcon_meta']
+[2.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/gate_dtctn) by extension 'colcon_meta'
+[2.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/gate_dtctn) by extensions ['ros']
+[2.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/gate_dtctn) by extension 'ros'
+[2.713s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gate_dtctn' with type 'ros.ament_cmake' and name 'gate_dtctn'
+[2.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extensions ['ignore', 'ignore_ament_install']
+[2.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extension 'ignore'
+[2.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extension 'ignore_ament_install'
+[2.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extensions ['colcon_pkg']
+[2.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extension 'colcon_pkg'
+[2.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extensions ['colcon_meta']
+[2.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extension 'colcon_meta'
+[2.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extensions ['ros']
+[2.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_sim) by extension 'ros'
+[2.716s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_sim' with type 'ros.ament_python' and name 'gazebo_sim'
+[2.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_fllwng) by extensions ['ignore', 'ignore_ament_install']
+[2.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_fllwng) by extension 'ignore'
+[2.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_fllwng) by extension 'ignore_ament_install'
+[2.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_fllwng) by extensions ['colcon_pkg']
+[2.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_fllwng) by extension 'colcon_pkg'
+[2.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_fllwng) by extensions ['colcon_meta']
+[2.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_fllwng) by extension 'colcon_meta'
+[2.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_fllwng) by extensions ['ros']
+[2.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/path_fllwng) by extension 'ros'
+[2.742s] DEBUG:colcon.colcon_core.package_identification:Package 'src/path_fllwng' with type 'ros.ament_python' and name 'path_fllwng'
+[2.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.939s] Level 5:colcon.colcon_core.verb:set package 'gate_dtctn' build argument 'cmake_args' from command line to 'None'
+[2.939s] Level 5:colcon.colcon_core.verb:set package 'gate_dtctn' build argument 'cmake_target' from command line to 'None'
+[2.939s] Level 5:colcon.colcon_core.verb:set package 'gate_dtctn' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.939s] Level 5:colcon.colcon_core.verb:set package 'gate_dtctn' build argument 'cmake_clean_cache' from command line to 'False'
+[2.939s] Level 5:colcon.colcon_core.verb:set package 'gate_dtctn' build argument 'cmake_clean_first' from command line to 'False'
+[2.939s] Level 5:colcon.colcon_core.verb:set package 'gate_dtctn' build argument 'cmake_force_configure' from command line to 'False'
+[2.939s] Level 5:colcon.colcon_core.verb:set package 'gate_dtctn' build argument 'ament_cmake_args' from command line to 'None'
+[2.940s] Level 5:colcon.colcon_core.verb:set package 'gate_dtctn' build argument 'catkin_cmake_args' from command line to 'None'
+[2.940s] Level 5:colcon.colcon_core.verb:set package 'gate_dtctn' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.940s] DEBUG:colcon.colcon_core.verb:Building package 'gate_dtctn' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/movax/adr_ws/build/gate_dtctn', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/movax/adr_ws/install/gate_dtctn', 'merge_install': False, 'path': '/home/movax/adr_ws/src/gate_dtctn', 'symlink_install': False, 'test_result_base': None}
+[2.941s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'cmake_args' from command line to 'None'
+[2.941s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'cmake_target' from command line to 'None'
+[2.941s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.941s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[2.941s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'cmake_clean_first' from command line to 'False'
+[2.941s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'cmake_force_configure' from command line to 'False'
+[2.941s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'ament_cmake_args' from command line to 'None'
+[2.941s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[2.941s] Level 5:colcon.colcon_core.verb:set package 'gazebo_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.941s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/movax/adr_ws/build/gazebo_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/movax/adr_ws/install/gazebo_sim', 'merge_install': False, 'path': '/home/movax/adr_ws/src/gazebo_sim', 'symlink_install': False, 'test_result_base': None}
+[2.943s] Level 5:colcon.colcon_core.verb:set package 'path_fllwng' build argument 'cmake_args' from command line to 'None'
+[2.943s] Level 5:colcon.colcon_core.verb:set package 'path_fllwng' build argument 'cmake_target' from command line to 'None'
+[2.943s] Level 5:colcon.colcon_core.verb:set package 'path_fllwng' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.943s] Level 5:colcon.colcon_core.verb:set package 'path_fllwng' build argument 'cmake_clean_cache' from command line to 'False'
+[2.943s] Level 5:colcon.colcon_core.verb:set package 'path_fllwng' build argument 'cmake_clean_first' from command line to 'False'
+[2.943s] Level 5:colcon.colcon_core.verb:set package 'path_fllwng' build argument 'cmake_force_configure' from command line to 'False'
+[2.943s] Level 5:colcon.colcon_core.verb:set package 'path_fllwng' build argument 'ament_cmake_args' from command line to 'None'
+[2.943s] Level 5:colcon.colcon_core.verb:set package 'path_fllwng' build argument 'catkin_cmake_args' from command line to 'None'
+[2.943s] Level 5:colcon.colcon_core.verb:set package 'path_fllwng' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.943s] DEBUG:colcon.colcon_core.verb:Building package 'path_fllwng' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/movax/adr_ws/build/path_fllwng', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/movax/adr_ws/install/path_fllwng', 'merge_install': False, 'path': '/home/movax/adr_ws/src/path_fllwng', 'symlink_install': False, 'test_result_base': None}
+[2.945s] Level 5:colcon.colcon_core.verb:set package 'adf_sil' build argument 'cmake_args' from command line to 'None'
+[2.945s] Level 5:colcon.colcon_core.verb:set package 'adf_sil' build argument 'cmake_target' from command line to 'None'
+[2.945s] Level 5:colcon.colcon_core.verb:set package 'adf_sil' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.945s] Level 5:colcon.colcon_core.verb:set package 'adf_sil' build argument 'cmake_clean_cache' from command line to 'False'
+[2.945s] Level 5:colcon.colcon_core.verb:set package 'adf_sil' build argument 'cmake_clean_first' from command line to 'False'
+[2.945s] Level 5:colcon.colcon_core.verb:set package 'adf_sil' build argument 'cmake_force_configure' from command line to 'False'
+[2.945s] Level 5:colcon.colcon_core.verb:set package 'adf_sil' build argument 'ament_cmake_args' from command line to 'None'
+[2.945s] Level 5:colcon.colcon_core.verb:set package 'adf_sil' build argument 'catkin_cmake_args' from command line to 'None'
+[2.945s] Level 5:colcon.colcon_core.verb:set package 'adf_sil' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.945s] DEBUG:colcon.colcon_core.verb:Building package 'adf_sil' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/movax/adr_ws/build/adf_sil', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/movax/adr_ws/install/adf_sil', 'merge_install': False, 'path': '/home/movax/adr_ws/src/adf_sil', 'symlink_install': False, 'test_result_base': None}
+[3.114s] WARNING:colcon.colcon_core.verb:Some selected packages are already built in one or more underlay workspaces:
+	'gate_dtctn' is in: /home/movax/adr_ws/install/gate_dtctn
+	'path_fllwng' is in: /home/movax/adr_ws/install/path_fllwng
+	'adf_sil' is in: /home/movax/adr_ws/install/adf_sil
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding adf_sil gate_dtctn path_fllwng
+
+This may be promoted to an error in a future release of colcon-core.
+[3.116s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.123s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.123s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/movax/adr_ws/src/gate_dtctn' with build type 'ament_cmake'
+[3.124s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/movax/adr_ws/src/gate_dtctn'
+[3.204s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.205s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.205s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.249s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/movax/adr_ws/src/path_fllwng' with build type 'ament_python'
+[3.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_fllwng', 'ament_prefix_path')
+[3.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/movax/adr_ws/install/path_fllwng/share/path_fllwng/hook/ament_prefix_path.ps1'
+[3.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/movax/adr_ws/install/path_fllwng/share/path_fllwng/hook/ament_prefix_path.dsv'
+[3.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/movax/adr_ws/install/path_fllwng/share/path_fllwng/hook/ament_prefix_path.sh'
+[3.315s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.315s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.345s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/movax/adr_ws/src/gazebo_sim' with build type 'ament_python'
+[3.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_sim', 'ament_prefix_path')
+[3.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/hook/ament_prefix_path.ps1'
+[3.350s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/hook/ament_prefix_path.dsv'
+[3.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/hook/ament_prefix_path.sh'
+[3.352s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.352s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.410s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/movax/adr_ws/build/gate_dtctn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/movax/adr_ws/install/path_fllwng:/home/movax/ros2_ws/install/my_py_pkg:/home/movax/ros2_ws/install/flight_mission:/home/movax/ros2_ws/install/cv_basics:/home/movax/gzb_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/movax/adr_ws/build/gate_dtctn -- -j4 -l4
+[3.920s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/movax/adr_ws/src/path_fllwng'
+[3.922s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.922s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.369s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/movax/adr_ws/src/gazebo_sim'
+[4.370s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.370s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/movax/adr_ws/build/gate_dtctn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/movax/adr_ws/install/path_fllwng:/home/movax/ros2_ws/install/my_py_pkg:/home/movax/ros2_ws/install/flight_mission:/home/movax/ros2_ws/install/cv_basics:/home/movax/gzb_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/movax/adr_ws/build/gate_dtctn -- -j4 -l4
+[4.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/movax/adr_ws/build/gate_dtctn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/movax/adr_ws/install/path_fllwng:/home/movax/ros2_ws/install/my_py_pkg:/home/movax/ros2_ws/install/flight_mission:/home/movax/ros2_ws/install/cv_basics:/home/movax/gzb_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /home/movax/adr_ws/build/gate_dtctn
+[4.793s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gate_dtctn)
+[4.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/movax/adr_ws/build/gate_dtctn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/movax/adr_ws/install/path_fllwng:/home/movax/ros2_ws/install/my_py_pkg:/home/movax/ros2_ws/install/flight_mission:/home/movax/ros2_ws/install/cv_basics:/home/movax/gzb_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /home/movax/adr_ws/build/gate_dtctn
+[5.107s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/gate_dtctn' for CMake module files
+[5.110s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/gate_dtctn' for CMake config files
+[5.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('gate_dtctn', 'cmake_prefix_path')
+[5.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/hook/cmake_prefix_path.ps1'
+[5.118s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/hook/cmake_prefix_path.dsv'
+[5.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/hook/cmake_prefix_path.sh'
+[5.125s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/gate_dtctn/lib'
+[5.126s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/gate_dtctn/bin'
+[5.127s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/gate_dtctn/lib/pkgconfig/gate_dtctn.pc'
+[5.127s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/gate_dtctn/lib/python3.8/site-packages'
+[5.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/package.ps1'
+[5.173s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/package.dsv'
+[5.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/package.sh'
+[5.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/package.bash'
+[5.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/package.zsh'
+[5.354s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/movax/adr_ws/install/gate_dtctn/share/colcon-core/packages/gate_dtctn)
+[5.434s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gate_dtctn)
+[5.435s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/gate_dtctn' for CMake module files
+[5.436s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/gate_dtctn' for CMake config files
+[5.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('gate_dtctn', 'cmake_prefix_path')
+[5.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/hook/cmake_prefix_path.ps1'
+[5.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/hook/cmake_prefix_path.dsv'
+[5.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/hook/cmake_prefix_path.sh'
+[5.439s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/gate_dtctn/lib'
+[5.439s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/gate_dtctn/bin'
+[5.439s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/gate_dtctn/lib/pkgconfig/gate_dtctn.pc'
+[5.440s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/gate_dtctn/lib/python3.8/site-packages'
+[5.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/package.ps1'
+[5.441s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/package.dsv'
+[5.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/package.sh'
+[5.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/package.bash'
+[5.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/package.zsh'
+[5.443s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/movax/adr_ws/install/gate_dtctn/share/colcon-core/packages/gate_dtctn)
+[8.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/movax/adr_ws/src/gazebo_sim': PYTHONPATH=/home/movax/adr_ws/install/gazebo_sim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gazebo_sim build --build-base /home/movax/adr_ws/build/gazebo_sim/build install --prefix /home/movax/adr_ws/install/gazebo_sim --record /home/movax/adr_ws/build/gazebo_sim/install.log --single-version-externally-managed
+[8.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/movax/adr_ws/build/path_fllwng': PYTHONPATH=/home/movax/adr_ws/install/path_fllwng/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/movax/adr_ws/install/path_fllwng --uninstall --editable --build-directory /home/movax/adr_ws/build/path_fllwng/build
+[8.956s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/gazebo_sim' for CMake module files
+[8.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/movax/adr_ws/src/gazebo_sim' returned '0': PYTHONPATH=/home/movax/adr_ws/install/gazebo_sim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gazebo_sim build --build-base /home/movax/adr_ws/build/gazebo_sim/build install --prefix /home/movax/adr_ws/install/gazebo_sim --record /home/movax/adr_ws/build/gazebo_sim/install.log --single-version-externally-managed
+[8.958s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/gazebo_sim' for CMake config files
+[8.959s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/gazebo_sim/lib'
+[8.959s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/gazebo_sim/bin'
+[8.960s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/gazebo_sim/lib/pkgconfig/gazebo_sim.pc'
+[8.960s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/gazebo_sim/lib/python3.8/site-packages'
+[8.960s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_sim', 'pythonpath')
+[8.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/hook/pythonpath.ps1'
+[8.962s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/hook/pythonpath.dsv'
+[8.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/hook/pythonpath.sh'
+[8.963s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_sim)
+[8.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/package.ps1'
+[8.966s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/package.dsv'
+[8.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/package.sh'
+[8.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/package.bash'
+[8.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/package.zsh'
+[8.969s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/movax/adr_ws/install/gazebo_sim/share/colcon-core/packages/gazebo_sim)
+[9.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/movax/adr_ws/build/path_fllwng' returned '0': PYTHONPATH=/home/movax/adr_ws/install/path_fllwng/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/movax/adr_ws/install/path_fllwng --uninstall --editable --build-directory /home/movax/adr_ws/build/path_fllwng/build
+[9.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/movax/adr_ws/src/path_fllwng': PYTHONPATH=/home/movax/adr_ws/install/path_fllwng/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/path_fllwng build --build-base /home/movax/adr_ws/build/path_fllwng/build install --prefix /home/movax/adr_ws/install/path_fllwng --record /home/movax/adr_ws/build/path_fllwng/install.log --single-version-externally-managed
+[9.674s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/path_fllwng' for CMake module files
+[9.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/movax/adr_ws/src/path_fllwng' returned '0': PYTHONPATH=/home/movax/adr_ws/install/path_fllwng/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/path_fllwng build --build-base /home/movax/adr_ws/build/path_fllwng/build install --prefix /home/movax/adr_ws/install/path_fllwng --record /home/movax/adr_ws/build/path_fllwng/install.log --single-version-externally-managed
+[9.675s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/path_fllwng' for CMake config files
+[9.676s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/path_fllwng/lib'
+[9.676s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/path_fllwng/bin'
+[9.676s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/path_fllwng/lib/pkgconfig/path_fllwng.pc'
+[9.676s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/path_fllwng/lib/python3.8/site-packages'
+[9.676s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_fllwng', 'pythonpath')
+[9.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/movax/adr_ws/install/path_fllwng/share/path_fllwng/hook/pythonpath.ps1'
+[9.677s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/movax/adr_ws/install/path_fllwng/share/path_fllwng/hook/pythonpath.dsv'
+[9.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/movax/adr_ws/install/path_fllwng/share/path_fllwng/hook/pythonpath.sh'
+[9.678s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(path_fllwng)
+[9.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/movax/adr_ws/install/path_fllwng/share/path_fllwng/package.ps1'
+[9.680s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/movax/adr_ws/install/path_fllwng/share/path_fllwng/package.dsv'
+[9.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/movax/adr_ws/install/path_fllwng/share/path_fllwng/package.sh'
+[9.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/movax/adr_ws/install/path_fllwng/share/path_fllwng/package.bash'
+[9.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/movax/adr_ws/install/path_fllwng/share/path_fllwng/package.zsh'
+[9.682s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/movax/adr_ws/install/path_fllwng/share/colcon-core/packages/path_fllwng)
+[9.682s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/movax/adr_ws/src/adf_sil' with build type 'ament_cmake'
+[9.683s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/movax/adr_ws/src/adf_sil'
+[9.685s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.685s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/movax/adr_ws/build/adf_sil': AMENT_PREFIX_PATH=/home/movax/adr_ws/install/path_fllwng:/home/movax/adr_ws/install/adf_sil:/home/movax/adr_ws/install/gate_dtctn:/home/movax/ros2_ws/install/my_robot_bringup:/home/movax/ros2_ws/install/my_py_pkg:/home/movax/ros2_ws/install/my_cpp_pkg:/home/movax/ros2_ws/install/my_robot_interfaces:/home/movax/ros2_ws/install/gate_cv:/home/movax/ros2_ws/install/flight_mission:/home/movax/ros2_ws/install/cv_basics:/home/movax/drone_ws/install/mavros_extras:/home/movax/drone_ws/install/mavros:/home/movax/drone_ws/install/libmavconn:/home/movax/drone_ws/install/bboxes_ex_msgs:/home/movax/gzb_ws/install/vision_opencv:/home/movax/gzb_ws/install/opencv_tests:/home/movax/gzb_ws/install/image_common:/home/movax/gzb_ws/install/gazebo_ros_pkgs:/home/movax/gzb_ws/install/gazebo_plugins:/home/movax/gzb_ws/install/image_transport:/home/movax/gzb_ws/install/image_geometry:/home/movax/gzb_ws/install/gazebo_ros:/home/movax/gzb_ws/install/gazebo_msgs:/home/movax/gzb_ws/install/gazebo_dev:/home/movax/gzb_ws/install/cv_bridge:/home/movax/gzb_ws/install/camera_info_manager:/home/movax/gzb_ws/install/camera_calibration_parsers:/opt/ros/foxy CMAKE_PREFIX_PATH=/home/movax/adr_ws/install/gate_dtctn:/home/movax/adr_ws/install/adf_sil:/home/movax/ros2_ws/install/my_robot_bringup:/home/movax/ros2_ws/install/my_cpp_pkg:/home/movax/ros2_ws/install/my_robot_interfaces:/home/movax/ros2_ws/install/gate_cv:/home/movax/drone_ws/install/mavros_extras:/home/movax/drone_ws/install/mavros:/home/movax/drone_ws/install/mavros_msgs:/home/movax/drone_ws/install/libmavconn:/home/movax/drone_ws/install/mavlink:/home/movax/drone_ws/install/bboxes_ex_msgs:/home/movax/gzb_ws/install/vision_opencv:/home/movax/gzb_ws/install/image_common:/home/movax/gzb_ws/install/gazebo_ros_pkgs:/home/movax/gzb_ws/install/gazebo_plugins:/home/movax/gzb_ws/install/image_transport:/home/movax/gzb_ws/install/image_geometry:/home/movax/gzb_ws/install/gazebo_ros:/home/movax/gzb_ws/install/gazebo_msgs:/home/movax/gzb_ws/install/gazebo_dev:/home/movax/gzb_ws/install/cv_bridge:/home/movax/gzb_ws/install/camera_info_manager:/home/movax/gzb_ws/install/camera_calibration_parsers:/home/movax/adr_ws/install/path_fllwng:/home/movax/ros2_ws/install/my_py_pkg:/home/movax/ros2_ws/install/flight_mission:/home/movax/ros2_ws/install/cv_basics:/home/movax/gzb_ws/install/opencv_tests:/opt/ros/foxy PYTHONPATH=/home/movax/adr_ws/install/path_fllwng/lib/python3.8/site-packages:/home/movax/adr_ws/build/path_fllwng:/home/movax/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/movax/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/movax/ros2_ws/install/flight_mission/lib/python3.8/site-packages:/home/movax/ros2_ws/install/cv_basics/lib/python3.8/site-packages:/home/movax/drone_ws/install/mavros/lib/python3.8/site-packages:/home/movax/drone_ws/install/mavros_msgs/lib/python3.8/site-packages:/home/movax/drone_ws/install/bboxes_ex_msgs/lib/python3.8/site-packages:/home/movax/gzb_ws/build/opencv_tests:/home/movax/gzb_ws/install/opencv_tests/lib/python3.8/site-packages:/home/movax/gzb_ws/install/image_geometry/lib/python3.8/site-packages:/home/movax/gzb_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/movax/gzb_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/movax/gzb_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/movax/adr_ws/src/adf_sil -DCMAKE_INSTALL_PREFIX=/home/movax/adr_ws/install/adf_sil
+[9.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/movax/adr_ws/build/adf_sil' returned '1': AMENT_PREFIX_PATH=/home/movax/adr_ws/install/path_fllwng:/home/movax/adr_ws/install/adf_sil:/home/movax/adr_ws/install/gate_dtctn:/home/movax/ros2_ws/install/my_robot_bringup:/home/movax/ros2_ws/install/my_py_pkg:/home/movax/ros2_ws/install/my_cpp_pkg:/home/movax/ros2_ws/install/my_robot_interfaces:/home/movax/ros2_ws/install/gate_cv:/home/movax/ros2_ws/install/flight_mission:/home/movax/ros2_ws/install/cv_basics:/home/movax/drone_ws/install/mavros_extras:/home/movax/drone_ws/install/mavros:/home/movax/drone_ws/install/libmavconn:/home/movax/drone_ws/install/bboxes_ex_msgs:/home/movax/gzb_ws/install/vision_opencv:/home/movax/gzb_ws/install/opencv_tests:/home/movax/gzb_ws/install/image_common:/home/movax/gzb_ws/install/gazebo_ros_pkgs:/home/movax/gzb_ws/install/gazebo_plugins:/home/movax/gzb_ws/install/image_transport:/home/movax/gzb_ws/install/image_geometry:/home/movax/gzb_ws/install/gazebo_ros:/home/movax/gzb_ws/install/gazebo_msgs:/home/movax/gzb_ws/install/gazebo_dev:/home/movax/gzb_ws/install/cv_bridge:/home/movax/gzb_ws/install/camera_info_manager:/home/movax/gzb_ws/install/camera_calibration_parsers:/opt/ros/foxy CMAKE_PREFIX_PATH=/home/movax/adr_ws/install/gate_dtctn:/home/movax/adr_ws/install/adf_sil:/home/movax/ros2_ws/install/my_robot_bringup:/home/movax/ros2_ws/install/my_cpp_pkg:/home/movax/ros2_ws/install/my_robot_interfaces:/home/movax/ros2_ws/install/gate_cv:/home/movax/drone_ws/install/mavros_extras:/home/movax/drone_ws/install/mavros:/home/movax/drone_ws/install/mavros_msgs:/home/movax/drone_ws/install/libmavconn:/home/movax/drone_ws/install/mavlink:/home/movax/drone_ws/install/bboxes_ex_msgs:/home/movax/gzb_ws/install/vision_opencv:/home/movax/gzb_ws/install/image_common:/home/movax/gzb_ws/install/gazebo_ros_pkgs:/home/movax/gzb_ws/install/gazebo_plugins:/home/movax/gzb_ws/install/image_transport:/home/movax/gzb_ws/install/image_geometry:/home/movax/gzb_ws/install/gazebo_ros:/home/movax/gzb_ws/install/gazebo_msgs:/home/movax/gzb_ws/install/gazebo_dev:/home/movax/gzb_ws/install/cv_bridge:/home/movax/gzb_ws/install/camera_info_manager:/home/movax/gzb_ws/install/camera_calibration_parsers:/home/movax/adr_ws/install/path_fllwng:/home/movax/ros2_ws/install/my_py_pkg:/home/movax/ros2_ws/install/flight_mission:/home/movax/ros2_ws/install/cv_basics:/home/movax/gzb_ws/install/opencv_tests:/opt/ros/foxy PYTHONPATH=/home/movax/adr_ws/install/path_fllwng/lib/python3.8/site-packages:/home/movax/adr_ws/build/path_fllwng:/home/movax/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/movax/ros2_ws/install/my_robot_interfaces/lib/python3.8/site-packages:/home/movax/ros2_ws/install/flight_mission/lib/python3.8/site-packages:/home/movax/ros2_ws/install/cv_basics/lib/python3.8/site-packages:/home/movax/drone_ws/install/mavros/lib/python3.8/site-packages:/home/movax/drone_ws/install/mavros_msgs/lib/python3.8/site-packages:/home/movax/drone_ws/install/bboxes_ex_msgs/lib/python3.8/site-packages:/home/movax/gzb_ws/build/opencv_tests:/home/movax/gzb_ws/install/opencv_tests/lib/python3.8/site-packages:/home/movax/gzb_ws/install/image_geometry/lib/python3.8/site-packages:/home/movax/gzb_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/movax/gzb_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/movax/gzb_ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/movax/adr_ws/src/adf_sil -DCMAKE_INSTALL_PREFIX=/home/movax/adr_ws/install/adf_sil
+[9.763s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(adf_sil)
+[9.766s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/adf_sil' for CMake module files
+[9.782s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/adf_sil' for CMake config files
+[9.783s] Level 1:colcon.colcon_core.shell:create_environment_hook('adf_sil', 'cmake_prefix_path')
+[9.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/movax/adr_ws/install/adf_sil/share/adf_sil/hook/cmake_prefix_path.ps1'
+[9.785s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/movax/adr_ws/install/adf_sil/share/adf_sil/hook/cmake_prefix_path.dsv'
+[9.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/movax/adr_ws/install/adf_sil/share/adf_sil/hook/cmake_prefix_path.sh'
+[9.786s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/adf_sil/bin'
+[9.786s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/adf_sil/lib/pkgconfig/adf_sil.pc'
+[9.786s] Level 1:colcon.colcon_core.environment:checking '/home/movax/adr_ws/install/adf_sil/lib/python3.8/site-packages'
+[9.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/movax/adr_ws/install/adf_sil/share/adf_sil/package.ps1'
+[9.788s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/movax/adr_ws/install/adf_sil/share/adf_sil/package.dsv'
+[9.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/movax/adr_ws/install/adf_sil/share/adf_sil/package.sh'
+[9.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/movax/adr_ws/install/adf_sil/share/adf_sil/package.bash'
+[9.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/movax/adr_ws/install/adf_sil/share/adf_sil/package.zsh'
+[9.790s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/movax/adr_ws/install/adf_sil/share/colcon-core/packages/adf_sil)
+[9.791s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.792s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.792s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[9.792s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.873s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.873s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.873s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.904s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.905s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/movax/adr_ws/install/local_setup.ps1'
+[9.915s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/movax/adr_ws/install/_local_setup_util_ps1.py'
+[9.928s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/movax/adr_ws/install/setup.ps1'
+[9.940s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/movax/adr_ws/install/local_setup.sh'
+[9.942s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/movax/adr_ws/install/_local_setup_util_sh.py'
+[9.943s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/movax/adr_ws/install/setup.sh'
+[9.949s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/movax/adr_ws/install/local_setup.bash'
+[9.965s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/movax/adr_ws/install/setup.bash'
+[9.975s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/movax/adr_ws/install/local_setup.zsh'
+[9.997s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/movax/adr_ws/install/setup.zsh'

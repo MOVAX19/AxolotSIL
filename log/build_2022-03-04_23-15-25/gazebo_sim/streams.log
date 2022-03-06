@@ -1,0 +1,39 @@
+[1.023s] Invoking command in '/home/movax/adr_ws/src/gazebo_sim': PYTHONPATH=/home/movax/adr_ws/install/gazebo_sim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gazebo_sim build --build-base /home/movax/adr_ws/build/gazebo_sim/build install --prefix /home/movax/adr_ws/install/gazebo_sim --record /home/movax/adr_ws/build/gazebo_sim/install.log --single-version-externally-managed
+[1.396s] running egg_info
+[1.396s] writing ../../build/gazebo_sim/gazebo_sim.egg-info/PKG-INFO
+[1.397s] writing dependency_links to ../../build/gazebo_sim/gazebo_sim.egg-info/dependency_links.txt
+[1.397s] writing entry points to ../../build/gazebo_sim/gazebo_sim.egg-info/entry_points.txt
+[1.397s] writing requirements to ../../build/gazebo_sim/gazebo_sim.egg-info/requires.txt
+[1.397s] writing top-level names to ../../build/gazebo_sim/gazebo_sim.egg-info/top_level.txt
+[1.446s] reading manifest file '../../build/gazebo_sim/gazebo_sim.egg-info/SOURCES.txt'
+[1.447s] writing manifest file '../../build/gazebo_sim/gazebo_sim.egg-info/SOURCES.txt'
+[1.447s] running build
+[1.448s] running build_py
+[1.448s] copying gazebo_sim/sim_spawner.py -> /home/movax/adr_ws/build/gazebo_sim/build/lib/gazebo_sim
+[1.448s] running install
+[1.449s] running install_lib
+[1.450s] copying /home/movax/adr_ws/build/gazebo_sim/build/lib/gazebo_sim/sim_spawner.py -> /home/movax/adr_ws/install/gazebo_sim/lib/python3.8/site-packages/gazebo_sim
+[1.451s] byte-compiling /home/movax/adr_ws/install/gazebo_sim/lib/python3.8/site-packages/gazebo_sim/sim_spawner.py to sim_spawner.cpython-38.pyc
+[1.453s] running install_data
+[1.454s] creating /home/movax/adr_ws/install/gazebo_sim/share/~
+[1.454s] creating /home/movax/adr_ws/install/gazebo_sim/share/~/adr_ws
+[1.454s] creating /home/movax/adr_ws/install/gazebo_sim/share/~/adr_ws/src
+[1.454s] creating /home/movax/adr_ws/install/gazebo_sim/share/~/adr_ws/src/adf_sil
+[1.455s] creating /home/movax/adr_ws/install/gazebo_sim/share/~/adr_ws/src/adf_sil/launch
+[1.455s] creating /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/worlds
+[1.455s] copying ./worlds/adr_circuit.world -> /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/worlds/
+[1.455s] creating /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/models
+[1.455s] creating /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/models/adr2017_Large_Gate
+[1.455s] copying ./models/adr2017_Large_Gate/model.config -> /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/models/adr2017_Large_Gate/
+[1.455s] copying ./models/adr2017_Large_Gate/model.sdf -> /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/models/adr2017_Large_Gate/
+[1.456s] creating /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/models/adr2017_Medium_Gate
+[1.456s] copying ./models/adr2017_Medium_Gate/model.config -> /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/models/adr2017_Medium_Gate/
+[1.456s] copying ./models/adr2017_Medium_Gate/model.sdf -> /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/models/adr2017_Medium_Gate/
+[1.456s] creating /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/models/adr2017_Small_Gate
+[1.456s] copying ./models/adr2017_Small_Gate/model.config -> /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/models/adr2017_Small_Gate/
+[1.456s] copying ./models/adr2017_Small_Gate/model.sdf -> /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/models/adr2017_Small_Gate/
+[1.456s] creating /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/models/drone_with_camera
+[1.456s] copying ./models/drone_with_camera/model.config -> /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/models/drone_with_camera/
+[1.456s] copying ./models/drone_with_camera/model.sdf -> /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim/models/drone_with_camera/
+[1.457s] error: can't copy './models/drone_with_camera/meshes': doesn't exist or not a regular file
+[1.481s] Invoked command in '/home/movax/adr_ws/src/gazebo_sim' returned '1': PYTHONPATH=/home/movax/adr_ws/install/gazebo_sim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gazebo_sim build --build-base /home/movax/adr_ws/build/gazebo_sim/build install --prefix /home/movax/adr_ws/install/gazebo_sim --record /home/movax/adr_ws/build/gazebo_sim/install.log --single-version-externally-managed

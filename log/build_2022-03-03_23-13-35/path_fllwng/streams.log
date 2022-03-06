@@ -1,0 +1,33 @@
+[1.189s] Invoking command in '/home/movax/adr_ws/src/path_fllwng': PYTHONPATH=/home/movax/adr_ws/install/path_fllwng/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/path_fllwng build --build-base /home/movax/adr_ws/build/path_fllwng/build install --prefix /home/movax/adr_ws/install/path_fllwng --record /home/movax/adr_ws/build/path_fllwng/install.log --single-version-externally-managed
+[1.588s] running egg_info
+[1.589s] creating ../../build/path_fllwng/path_fllwng.egg-info
+[1.590s] writing ../../build/path_fllwng/path_fllwng.egg-info/PKG-INFO
+[1.590s] writing dependency_links to ../../build/path_fllwng/path_fllwng.egg-info/dependency_links.txt
+[1.591s] writing entry points to ../../build/path_fllwng/path_fllwng.egg-info/entry_points.txt
+[1.591s] writing requirements to ../../build/path_fllwng/path_fllwng.egg-info/requires.txt
+[1.591s] writing top-level names to ../../build/path_fllwng/path_fllwng.egg-info/top_level.txt
+[1.593s] writing manifest file '../../build/path_fllwng/path_fllwng.egg-info/SOURCES.txt'
+[1.647s] reading manifest file '../../build/path_fllwng/path_fllwng.egg-info/SOURCES.txt'
+[1.648s] writing manifest file '../../build/path_fllwng/path_fllwng.egg-info/SOURCES.txt'
+[1.648s] running build
+[1.648s] running build_py
+[1.649s] creating /home/movax/adr_ws/build/path_fllwng/build
+[1.649s] creating /home/movax/adr_ws/build/path_fllwng/build/lib
+[1.649s] creating /home/movax/adr_ws/build/path_fllwng/build/lib/path_fllwng
+[1.649s] copying path_fllwng/__init__.py -> /home/movax/adr_ws/build/path_fllwng/build/lib/path_fllwng
+[1.649s] running install
+[1.650s] running install_lib
+[1.652s] creating /home/movax/adr_ws/install/path_fllwng/lib/python3.8/site-packages/path_fllwng
+[1.652s] copying /home/movax/adr_ws/build/path_fllwng/build/lib/path_fllwng/__init__.py -> /home/movax/adr_ws/install/path_fllwng/lib/python3.8/site-packages/path_fllwng
+[1.653s] byte-compiling /home/movax/adr_ws/install/path_fllwng/lib/python3.8/site-packages/path_fllwng/__init__.py to __init__.cpython-38.pyc
+[1.655s] running install_data
+[1.656s] creating /home/movax/adr_ws/install/path_fllwng/share/ament_index
+[1.657s] creating /home/movax/adr_ws/install/path_fllwng/share/ament_index/resource_index
+[1.657s] creating /home/movax/adr_ws/install/path_fllwng/share/ament_index/resource_index/packages
+[1.657s] copying resource/path_fllwng -> /home/movax/adr_ws/install/path_fllwng/share/ament_index/resource_index/packages
+[1.658s] copying package.xml -> /home/movax/adr_ws/install/path_fllwng/share/path_fllwng
+[1.658s] running install_egg_info
+[1.660s] Copying ../../build/path_fllwng/path_fllwng.egg-info to /home/movax/adr_ws/install/path_fllwng/lib/python3.8/site-packages/path_fllwng-0.0.0-py3.8.egg-info
+[1.662s] running install_scripts
+[1.690s] writing list of installed files to '/home/movax/adr_ws/build/path_fllwng/install.log'
+[1.724s] Invoked command in '/home/movax/adr_ws/src/path_fllwng' returned '0': PYTHONPATH=/home/movax/adr_ws/install/path_fllwng/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/path_fllwng build --build-base /home/movax/adr_ws/build/path_fllwng/build install --prefix /home/movax/adr_ws/install/path_fllwng --record /home/movax/adr_ws/build/path_fllwng/install.log --single-version-externally-managed

@@ -1,0 +1,8 @@
+source;share/gate_dtctn/hook/cmake_prefix_path.ps1
+source;share/gate_dtctn/hook/cmake_prefix_path.dsv
+source;share/gate_dtctn/hook/cmake_prefix_path.sh
+source;share/gate_dtctn/local_setup.bash
+source;share/gate_dtctn/local_setup.dsv
+source;share/gate_dtctn/local_setup.ps1
+source;share/gate_dtctn/local_setup.sh
+source;share/gate_dtctn/local_setup.zsh

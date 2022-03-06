@@ -1,0 +1,8 @@
+source;share/adf_sil/hook/cmake_prefix_path.ps1
+source;share/adf_sil/hook/cmake_prefix_path.dsv
+source;share/adf_sil/hook/cmake_prefix_path.sh
+source;share/adf_sil/local_setup.bash
+source;share/adf_sil/local_setup.dsv
+source;share/adf_sil/local_setup.ps1
+source;share/adf_sil/local_setup.sh
+source;share/adf_sil/local_setup.zsh

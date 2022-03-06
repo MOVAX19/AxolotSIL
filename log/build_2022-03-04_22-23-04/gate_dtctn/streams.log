@@ -1,0 +1,22 @@
+[0.283s] Invoking command in '/home/movax/adr_ws/build/gate_dtctn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/movax/adr_ws/install/path_fllwng:/home/movax/ros2_ws/install/my_py_pkg:/home/movax/ros2_ws/install/flight_mission:/home/movax/ros2_ws/install/cv_basics:/home/movax/gzb_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/movax/adr_ws/build/gate_dtctn -- -j4 -l4
+[1.453s] [100%] Built target gate_cv
+[1.480s] Invoked command in '/home/movax/adr_ws/build/gate_dtctn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/movax/adr_ws/install/path_fllwng:/home/movax/ros2_ws/install/my_py_pkg:/home/movax/ros2_ws/install/flight_mission:/home/movax/ros2_ws/install/cv_basics:/home/movax/gzb_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --build /home/movax/adr_ws/build/gate_dtctn -- -j4 -l4
+[1.570s] Invoking command in '/home/movax/adr_ws/build/gate_dtctn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/movax/adr_ws/install/path_fllwng:/home/movax/ros2_ws/install/my_py_pkg:/home/movax/ros2_ws/install/flight_mission:/home/movax/ros2_ws/install/cv_basics:/home/movax/gzb_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /home/movax/adr_ws/build/gate_dtctn
+[1.633s] -- Install configuration: ""
+[1.654s] -- Up-to-date: /home/movax/adr_ws/install/gate_dtctn/lib/gate_dtctn/gate_cv
+[1.654s] -- Up-to-date: /home/movax/adr_ws/install/gate_dtctn/share/ament_index/resource_index/package_run_dependencies/gate_dtctn
+[1.655s] -- Up-to-date: /home/movax/adr_ws/install/gate_dtctn/share/ament_index/resource_index/parent_prefix_path/gate_dtctn
+[1.655s] -- Up-to-date: /home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/environment/ament_prefix_path.sh
+[1.655s] -- Up-to-date: /home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/environment/ament_prefix_path.dsv
+[1.655s] -- Up-to-date: /home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/environment/path.sh
+[1.656s] -- Up-to-date: /home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/environment/path.dsv
+[1.656s] -- Up-to-date: /home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/local_setup.bash
+[1.656s] -- Up-to-date: /home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/local_setup.sh
+[1.656s] -- Up-to-date: /home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/local_setup.zsh
+[1.656s] -- Up-to-date: /home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/local_setup.dsv
+[1.656s] -- Installing: /home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/package.dsv
+[1.663s] -- Up-to-date: /home/movax/adr_ws/install/gate_dtctn/share/ament_index/resource_index/packages/gate_dtctn
+[1.663s] -- Up-to-date: /home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/cmake/gate_dtctnConfig.cmake
+[1.663s] -- Up-to-date: /home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/cmake/gate_dtctnConfig-version.cmake
+[1.663s] -- Up-to-date: /home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/package.xml
+[1.666s] Invoked command in '/home/movax/adr_ws/build/gate_dtctn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/movax/adr_ws/install/path_fllwng:/home/movax/ros2_ws/install/my_py_pkg:/home/movax/ros2_ws/install/flight_mission:/home/movax/ros2_ws/install/cv_basics:/home/movax/gzb_ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake --install /home/movax/adr_ws/build/gate_dtctn

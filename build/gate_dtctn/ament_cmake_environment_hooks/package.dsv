@@ -1,0 +1,4 @@
+source;share/gate_dtctn/local_setup.bash
+source;share/gate_dtctn/local_setup.dsv
+source;share/gate_dtctn/local_setup.sh
+source;share/gate_dtctn/local_setup.zsh

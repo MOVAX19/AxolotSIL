@@ -1,0 +1,16 @@
+/home/movax/adr_ws/install/gate_dtctn/lib/gate_dtctn/gate_cv
+/home/movax/adr_ws/install/gate_dtctn/share/ament_index/resource_index/package_run_dependencies/gate_dtctn
+/home/movax/adr_ws/install/gate_dtctn/share/ament_index/resource_index/parent_prefix_path/gate_dtctn
+/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/environment/ament_prefix_path.sh
+/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/environment/ament_prefix_path.dsv
+/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/environment/path.sh
+/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/environment/path.dsv
+/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/local_setup.bash
+/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/local_setup.sh
+/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/local_setup.zsh
+/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/local_setup.dsv
+/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/package.dsv
+/home/movax/adr_ws/install/gate_dtctn/share/ament_index/resource_index/packages/gate_dtctn
+/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/cmake/gate_dtctnConfig.cmake
+/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/cmake/gate_dtctnConfig-version.cmake
+/home/movax/adr_ws/install/gate_dtctn/share/gate_dtctn/package.xml

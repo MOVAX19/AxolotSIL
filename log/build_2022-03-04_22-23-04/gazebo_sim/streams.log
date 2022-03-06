@@ -1,0 +1,33 @@
+[4.740s] Invoking command in '/home/movax/adr_ws/src/gazebo_sim': PYTHONPATH=/home/movax/adr_ws/install/gazebo_sim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gazebo_sim build --build-base /home/movax/adr_ws/build/gazebo_sim/build install --prefix /home/movax/adr_ws/install/gazebo_sim --record /home/movax/adr_ws/build/gazebo_sim/install.log --single-version-externally-managed
+[5.150s] running egg_info
+[5.150s] creating ../../build/gazebo_sim/gazebo_sim.egg-info
+[5.151s] writing ../../build/gazebo_sim/gazebo_sim.egg-info/PKG-INFO
+[5.151s] writing dependency_links to ../../build/gazebo_sim/gazebo_sim.egg-info/dependency_links.txt
+[5.151s] writing entry points to ../../build/gazebo_sim/gazebo_sim.egg-info/entry_points.txt
+[5.152s] writing requirements to ../../build/gazebo_sim/gazebo_sim.egg-info/requires.txt
+[5.152s] writing top-level names to ../../build/gazebo_sim/gazebo_sim.egg-info/top_level.txt
+[5.358s] writing manifest file '../../build/gazebo_sim/gazebo_sim.egg-info/SOURCES.txt'
+[5.505s] reading manifest file '../../build/gazebo_sim/gazebo_sim.egg-info/SOURCES.txt'
+[5.506s] writing manifest file '../../build/gazebo_sim/gazebo_sim.egg-info/SOURCES.txt'
+[5.512s] running build
+[5.513s] running build_py
+[5.513s] creating /home/movax/adr_ws/build/gazebo_sim/build
+[5.513s] creating /home/movax/adr_ws/build/gazebo_sim/build/lib
+[5.513s] creating /home/movax/adr_ws/build/gazebo_sim/build/lib/gazebo_sim
+[5.514s] copying gazebo_sim/__init__.py -> /home/movax/adr_ws/build/gazebo_sim/build/lib/gazebo_sim
+[5.514s] running install
+[5.515s] running install_lib
+[5.518s] creating /home/movax/adr_ws/install/gazebo_sim/lib/python3.8/site-packages/gazebo_sim
+[5.518s] copying /home/movax/adr_ws/build/gazebo_sim/build/lib/gazebo_sim/__init__.py -> /home/movax/adr_ws/install/gazebo_sim/lib/python3.8/site-packages/gazebo_sim
+[5.519s] byte-compiling /home/movax/adr_ws/install/gazebo_sim/lib/python3.8/site-packages/gazebo_sim/__init__.py to __init__.cpython-38.pyc
+[5.521s] running install_data
+[5.522s] creating /home/movax/adr_ws/install/gazebo_sim/share/ament_index
+[5.523s] creating /home/movax/adr_ws/install/gazebo_sim/share/ament_index/resource_index
+[5.523s] creating /home/movax/adr_ws/install/gazebo_sim/share/ament_index/resource_index/packages
+[5.523s] copying resource/gazebo_sim -> /home/movax/adr_ws/install/gazebo_sim/share/ament_index/resource_index/packages
+[5.523s] copying package.xml -> /home/movax/adr_ws/install/gazebo_sim/share/gazebo_sim
+[5.523s] running install_egg_info
+[5.527s] Copying ../../build/gazebo_sim/gazebo_sim.egg-info to /home/movax/adr_ws/install/gazebo_sim/lib/python3.8/site-packages/gazebo_sim-0.0.0-py3.8.egg-info
+[5.529s] running install_scripts
+[5.567s] writing list of installed files to '/home/movax/adr_ws/build/gazebo_sim/install.log'
+[5.610s] Invoked command in '/home/movax/adr_ws/src/gazebo_sim' returned '0': PYTHONPATH=/home/movax/adr_ws/install/gazebo_sim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gazebo_sim build --build-base /home/movax/adr_ws/build/gazebo_sim/build install --prefix /home/movax/adr_ws/install/gazebo_sim --record /home/movax/adr_ws/build/gazebo_sim/install.log --single-version-externally-managed

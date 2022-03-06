@@ -1,0 +1,16 @@
+[4.519s] Invoking command in '/home/movax/adr_ws/src/gazebo_sim': PYTHONPATH=/home/movax/adr_ws/install/gazebo_sim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gazebo_sim build --build-base /home/movax/adr_ws/build/gazebo_sim/build install --prefix /home/movax/adr_ws/install/gazebo_sim --record /home/movax/adr_ws/build/gazebo_sim/install.log --single-version-externally-managed
+[5.048s] running egg_info
+[5.049s] writing ../../build/gazebo_sim/gazebo_sim.egg-info/PKG-INFO
+[5.103s] writing dependency_links to ../../build/gazebo_sim/gazebo_sim.egg-info/dependency_links.txt
+[5.103s] writing entry points to ../../build/gazebo_sim/gazebo_sim.egg-info/entry_points.txt
+[5.104s] writing requirements to ../../build/gazebo_sim/gazebo_sim.egg-info/requires.txt
+[5.104s] writing top-level names to ../../build/gazebo_sim/gazebo_sim.egg-info/top_level.txt
+[5.241s] reading manifest file '../../build/gazebo_sim/gazebo_sim.egg-info/SOURCES.txt'
+[5.262s] writing manifest file '../../build/gazebo_sim/gazebo_sim.egg-info/SOURCES.txt'
+[5.262s] running build
+[5.262s] running build_py
+[5.264s] running install
+[5.266s] running install_lib
+[5.269s] running install_data
+[5.303s] error: can't copy './models/drone_with_camera/meshes': doesn't exist or not a regular file
+[5.348s] Invoked command in '/home/movax/adr_ws/src/gazebo_sim' returned '1': PYTHONPATH=/home/movax/adr_ws/install/gazebo_sim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gazebo_sim build --build-base /home/movax/adr_ws/build/gazebo_sim/build install --prefix /home/movax/adr_ws/install/gazebo_sim --record /home/movax/adr_ws/build/gazebo_sim/install.log --single-version-externally-managed

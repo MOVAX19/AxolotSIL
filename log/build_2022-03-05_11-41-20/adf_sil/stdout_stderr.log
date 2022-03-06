@@ -1,0 +1,24 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/movax/adr_ws/build/adf_sil
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/movax/adr_ws/install/adf_sil/share/adf_sil/launch/sil.launch.py
+-- Up-to-date symlink: /home/movax/adr_ws/install/adf_sil/share/ament_index/resource_index/package_run_dependencies/adf_sil
+-- Up-to-date symlink: /home/movax/adr_ws/install/adf_sil/share/ament_index/resource_index/parent_prefix_path/adf_sil
+-- Up-to-date symlink: /home/movax/adr_ws/install/adf_sil/share/adf_sil/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/movax/adr_ws/install/adf_sil/share/adf_sil/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/movax/adr_ws/install/adf_sil/share/adf_sil/environment/path.sh
+-- Up-to-date symlink: /home/movax/adr_ws/install/adf_sil/share/adf_sil/environment/path.dsv
+-- Up-to-date symlink: /home/movax/adr_ws/install/adf_sil/share/adf_sil/local_setup.bash
+-- Up-to-date symlink: /home/movax/adr_ws/install/adf_sil/share/adf_sil/local_setup.sh
+-- Up-to-date symlink: /home/movax/adr_ws/install/adf_sil/share/adf_sil/local_setup.zsh
+-- Up-to-date symlink: /home/movax/adr_ws/install/adf_sil/share/adf_sil/local_setup.dsv
+-- Symlinking: /home/movax/adr_ws/install/adf_sil/share/adf_sil/package.dsv
+-- Up-to-date symlink: /home/movax/adr_ws/install/adf_sil/share/ament_index/resource_index/packages/adf_sil
+-- Up-to-date symlink: /home/movax/adr_ws/install/adf_sil/share/adf_sil/cmake/adf_silConfig.cmake
+-- Up-to-date symlink: /home/movax/adr_ws/install/adf_sil/share/adf_sil/cmake/adf_silConfig-version.cmake
+-- Symlinking: /home/movax/adr_ws/install/adf_sil/share/adf_sil/package.xml

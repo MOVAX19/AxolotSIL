@@ -1,0 +1,1 @@
+/home/movax/adr_ws/build/adf_sil/ament_cmake_environment_hooks/local_setup.zsh

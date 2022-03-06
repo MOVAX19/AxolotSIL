@@ -1,0 +1,10 @@
+/home/movax/adr_ws/build/gate_dtctn/CMakeFiles/install/strip.dir
+/home/movax/adr_ws/build/gate_dtctn/CMakeFiles/install/local.dir
+/home/movax/adr_ws/build/gate_dtctn/CMakeFiles/install.dir
+/home/movax/adr_ws/build/gate_dtctn/CMakeFiles/list_install_components.dir
+/home/movax/adr_ws/build/gate_dtctn/CMakeFiles/rebuild_cache.dir
+/home/movax/adr_ws/build/gate_dtctn/CMakeFiles/edit_cache.dir
+/home/movax/adr_ws/build/gate_dtctn/CMakeFiles/test.dir
+/home/movax/adr_ws/build/gate_dtctn/CMakeFiles/gate_cv.dir
+/home/movax/adr_ws/build/gate_dtctn/CMakeFiles/gate_dtctn_uninstall.dir
+/home/movax/adr_ws/build/gate_dtctn/CMakeFiles/uninstall.dir

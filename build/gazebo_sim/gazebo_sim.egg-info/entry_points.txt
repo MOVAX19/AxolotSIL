@@ -1,0 +1,3 @@
+[console_scripts]
+adr_circuit = gazebo_sim.sim_spawner:main
+

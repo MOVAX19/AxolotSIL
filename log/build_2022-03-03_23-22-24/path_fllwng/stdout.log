@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing path_fllwng.egg-info/PKG-INFO
+writing dependency_links to path_fllwng.egg-info/dependency_links.txt
+writing entry points to path_fllwng.egg-info/entry_points.txt
+writing requirements to path_fllwng.egg-info/requires.txt
+writing top-level names to path_fllwng.egg-info/top_level.txt
+reading manifest file 'path_fllwng.egg-info/SOURCES.txt'
+writing manifest file 'path_fllwng.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/movax/adr_ws/install/path_fllwng/lib/python3.8/site-packages/site.py
+Creating /home/movax/adr_ws/install/path_fllwng/lib/python3.8/site-packages/path-fllwng.egg-link (link to .)
+Installing waypoint_flight script to /home/movax/adr_ws/install/path_fllwng/lib/path_fllwng
+
+Installed /home/movax/adr_ws/build/path_fllwng
+running install_data

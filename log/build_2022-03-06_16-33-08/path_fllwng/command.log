@@ -1,0 +1,1 @@
+Invoking command in '/home/movax/adr_ws/build/path_fllwng': PYTHONPATH=/home/movax/adr_ws/install/path_fllwng/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/movax/adr_ws/install/path_fllwng --uninstall --editable --build-directory /home/movax/adr_ws/build/path_fllwng/build

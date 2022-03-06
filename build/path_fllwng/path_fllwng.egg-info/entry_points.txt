@@ -1,0 +1,3 @@
+[console_scripts]
+waypoint_flight = path_fllwng.mission:main
+

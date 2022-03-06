@@ -1,0 +1,20 @@
+[1.877s] Invoking command in '/home/movax/adr_ws/src/gazebo_sim': PYTHONPATH=/home/movax/adr_ws/install/gazebo_sim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gazebo_sim build --build-base /home/movax/adr_ws/build/gazebo_sim/build install --prefix /home/movax/adr_ws/install/gazebo_sim --record /home/movax/adr_ws/build/gazebo_sim/install.log --single-version-externally-managed
+[2.250s] running egg_info
+[2.251s] writing ../../build/gazebo_sim/gazebo_sim.egg-info/PKG-INFO
+[2.252s] writing dependency_links to ../../build/gazebo_sim/gazebo_sim.egg-info/dependency_links.txt
+[2.252s] writing entry points to ../../build/gazebo_sim/gazebo_sim.egg-info/entry_points.txt
+[2.252s] writing requirements to ../../build/gazebo_sim/gazebo_sim.egg-info/requires.txt
+[2.252s] writing top-level names to ../../build/gazebo_sim/gazebo_sim.egg-info/top_level.txt
+[2.303s] reading manifest file '../../build/gazebo_sim/gazebo_sim.egg-info/SOURCES.txt'
+[2.304s] writing manifest file '../../build/gazebo_sim/gazebo_sim.egg-info/SOURCES.txt'
+[2.304s] running build
+[2.305s] running build_py
+[2.305s] running install
+[2.306s] running install_lib
+[2.308s] running install_data
+[2.309s] running install_egg_info
+[2.312s] removing '/home/movax/adr_ws/install/gazebo_sim/lib/python3.8/site-packages/gazebo_sim-0.0.0-py3.8.egg-info' (and everything under it)
+[2.312s] Copying ../../build/gazebo_sim/gazebo_sim.egg-info to /home/movax/adr_ws/install/gazebo_sim/lib/python3.8/site-packages/gazebo_sim-0.0.0-py3.8.egg-info
+[2.313s] running install_scripts
+[2.339s] writing list of installed files to '/home/movax/adr_ws/build/gazebo_sim/install.log'
+[2.371s] Invoked command in '/home/movax/adr_ws/src/gazebo_sim' returned '0': PYTHONPATH=/home/movax/adr_ws/install/gazebo_sim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gazebo_sim build --build-base /home/movax/adr_ws/build/gazebo_sim/build install --prefix /home/movax/adr_ws/install/gazebo_sim --record /home/movax/adr_ws/build/gazebo_sim/install.log --single-version-externally-managed
